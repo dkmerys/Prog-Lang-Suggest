@@ -16,7 +16,7 @@ $(document).ready(function(){
     answer = "Swift"
   } else if (question1 === "computer") {
     answer = "C#"
-  } else if (quesiton5 === "sports") {
+  } else if (question5 === "sports") {
     answer = "Python"
   }
   

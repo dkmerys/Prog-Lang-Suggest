@@ -1,3 +1,9 @@
 #answer-box{
   display: none;
 }
+
+body {
+  background-image: url("img/geometric-mountains.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
