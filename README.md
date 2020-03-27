@@ -1,14 +1,16 @@
 # _My Portfolio_
 
-#### _HTML & CSS Exercise for Epicodus, 03.19.2020_
+#### _HTML, CSS, & JavaScript Exercise for Epicodus, 03.27.2020_
 
 #### By _**Daniel Merys**_
 
 ## Description
 
-_This website is rudimentary example of HTML and CSS skills learned in the first 4 days of Epicodus training._
-_Bootstrap CSS was used to create rows and columns for easier formatting_
-_https://dkmerys.github.io/my-portfolio_
+_This website is rudimentary example of HTML, CSS, Bootstrap, Jquery, and JavaScript skills learned in the first 2 weeks of Epicodus training._
+
+_https://github.com/dkmerys/Prog-Lang-Suggest_
+_https://dkmerys.github.io/Prog-Lang-Suggest_
+
 
 ## Setup/Installation Requirements
 
