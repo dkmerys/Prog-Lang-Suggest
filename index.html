@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
   <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
   <script src="js/jquery-3.4.1.js"></script>
   <script src="js/scripts.js"></script>
   <title>Document</title>
@@ -13,77 +14,83 @@
   <h1>Programming Language Suggestor</h1>
   <h4>Answer some questions about yourself and we'll help you choose which programming language is right for you.</h4>
   <div class="container">
-    <form id="form-group">
-      <h5>Is it important to you to understand computer architecture?</h5>
-      <div class="radio">
-        <label>
-          <input type="radio" name="question1" value="computer" checked>
-          I want to <em>be</em> a computer
-        </label>
+    <div class="row">
+      <div class="col-md-3"></div>
+        <div class="col-md-6">
+        <form id="form-group">
+          <h5>Is it important to you to understand computer architecture?</h5>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question1" value="computer" checked>
+              I want to <em>be</em> a computer
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question1" value="human">
+              What is computer architecture?
+            </label>
+          </div>
+          <h5>Do you <strong>really</strong> want to build apps for iPhones?</h5>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question2" value="iphone" checked>
+              Android-schmandroid
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question2" value="android">
+              Nah. I'm not <em>that</em> bougie
+            </label>
+          </div>
+          <h5>Is web development not really something you're in to?</h5>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question3" value="noweb" checked>
+              Let the sales guys figure out the marketing. I just want to code.
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question3" value="web">
+              If it isn't on the internet, does it really matter?
+            </label>
+          </div>
+          <h5>Ever feel like creating games or a power-mad AI?</h5>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question4" value="villain" checked>
+              <strong>THIS</strong> is why I got into coding
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question4" value="hero">
+              I'd rather make websites about cats wearing clothes
+            </label>
+          </div>
+          <h5>Do you enjoy programming as well as fantasy-football?</h5>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question5" value="sports" checked>
+              I'm already prepping for my next fantasy draft!
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question5" value="books">
+              Sportsball? I think not.
+            </label>
+          </div>
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+        <div id="answer-box">
+          <p>You should learn the <span id="answer"></span> language</p>
+        </div>
       </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="question1" value="human">
-          What is computer architecture?
-        </label>
-      </div>
-      <h5>Do you <strong>really</strong> want to build apps for iPhones?</h5>
-      <div class="radio">
-        <label>
-          <input type="radio" name="question2" value="iphone" checked>
-          Android-schmandroid
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="question2" value="android">
-          Nah. I'm not <em>that</em> bougie
-        </label>
-      </div>
-      <h5>Is web development not really something you're in to?</h5>
-      <div class="radio">
-        <label>
-          <input type="radio" name="question3" value="noweb" checked>
-          Let the sales guys figure out the marketing. I just want to code.
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="question3" value="web">
-          If it isn't on the internet, does it really matter?
-        </label>
-      </div>
-      <h5>Ever feel like creating games or a power-mad AI?</h5>
-      <div class="radio">
-        <label>
-          <input type="radio" name="question4" value="villain" checked>
-          <strong>THIS</strong> is why I got into coding
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="question4" value="hero">
-          I'd rather make websites about cats wearing clothes
-        </label>
-      </div>
-      <h5>Do you enjoy programming as well as fantasy-football?</h5>
-      <div class="radio">
-        <label>
-          <input type="radio" name="question5" value="sports" checked>
-          I'm already prepping for my next fantasy draft!
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="question5" value="books">
-          Sportsball? I think not.
-        </label>
-      </div>
-      <button type="submit" class="btn btn-default">Submit</button>
-    </form>
-    <div id="answer-box">
-      <p>You should learn the <span id="answer"></span> language</p>
-    </div>
+      <div class="col-md-3"></div>
+    </div>  
   </div>  
 </body>
 </html>
