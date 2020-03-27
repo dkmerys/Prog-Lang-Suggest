@@ -18,6 +18,8 @@ $(document).ready(function(){
     answer = "C#"
   } else if (question5 === "sports") {
     answer = "Python"
+  } else {
+    alert("Please answer at least one question.")
   }
   
 
