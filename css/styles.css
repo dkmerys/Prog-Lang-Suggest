@@ -1,6 +1,9 @@
 #answer-box{
   display: none;
-}
+  font-family: 'Muli', sans-serif;
+  text-align: center;
+  margin: 25px;
+}  
 
 body {
   font-family: 'Muli', sans-serif;
