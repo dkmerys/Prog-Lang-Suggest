@@ -11,80 +11,82 @@
   <title>Document</title>
 </head>
 <body>
-  <h1>Programming Language Suggestor</h1>
-  <h4>Answer some questions about yourself and we'll help you choose which programming language is right for you.</h4>
   <div class="container">
+    <div class ="">
+      <h1>Programming Language Suggestor</h1>
+      <h4>Answer some questions about yourself and we'll help you choose which programming language is right for you.</h4>
+    </div>
     <div class="row">
       <div class="col-md-3"></div>
-        <div class="col-md-6">
-        <form id="form-group">
-          <h5>Is it important to you to understand computer architecture?</h5>
-          <div class="radio">
-            <label>
-              <input type="radio" name="question1" value="computer" checked>
-              I want to <em>be</em> a computer
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="question1" value="human">
-              What is computer architecture?
-            </label>
-          </div>
-          <h5>Do you <strong>really</strong> want to build apps for iPhones?</h5>
-          <div class="radio">
-            <label>
-              <input type="radio" name="question2" value="iphone" checked>
-              Android-schmandroid
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="question2" value="android">
-              Nah. I'm not <em>that</em> bougie
-            </label>
-          </div>
-          <h5>Is web development not really something you're in to?</h5>
-          <div class="radio">
-            <label>
-              <input type="radio" name="question3" value="noweb" checked>
-              Let the sales guys figure out the marketing. I just want to code.
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="question3" value="web">
-              If it isn't on the internet, does it really matter?
-            </label>
-          </div>
-          <h5>Ever feel like creating games or a power-mad AI?</h5>
-          <div class="radio">
-            <label>
-              <input type="radio" name="question4" value="villain" checked>
-              <strong>THIS</strong> is why I got into coding
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="question4" value="hero">
-              I'd rather make websites about cats wearing clothes
-            </label>
-          </div>
-          <h5>Do you enjoy programming as well as fantasy-football?</h5>
-          <div class="radio">
-            <label>
-              <input type="radio" name="question5" value="sports" checked>
-              I'm already prepping for my next fantasy draft!
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="question5" value="books">
-              Sportsball? I think not.
-            </label>
-          </div>
-          <button type="submit" class="btn btn-default">Submit</button>
-        </form>
+        <div class="col-md-6 well">
+          <form id="form-group">
+            <h5>Is it important to you to understand computer architecture?</h5>
+            <div class="radio">
+              <label>
+                <input type="radio" name="question1" value="computer">
+                <p>I want to <em>be</em> a computer</p>
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="question1" value="human">
+                <p>What is computer architecture?</p>
+              </label>
+            </div>
+            <h5>Do you <strong>really</strong> want to build apps for iPhones?</h5>
+            <div class="radio">
+              <label>
+                <input type="radio" name="question2" value="iphone">
+                <p>Android-<em>schmandroid</em></p>
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="question2" value="android">
+                <p>Nah. I'm not <em>that</em> bougie</p>
+              </label>
+            </div>
+            <h5>Is web development not really something you're in to?</h5>
+            <div class="radio">
+              <label>
+                <input type="radio" name="question3" value="noweb">
+                <p>Let the sales guys figure out the marketing. I just want to code.</p>
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="question3" value="web">
+                <p>If it isn't on the internet, does it really matter?</p>
+              </label>
+            </div>
+            <h5>Ever feel like creating games or a power-mad AI?</h5>
+            <div class="radio">
+              <label>
+                <input type="radio" name="question4" value="villain">
+                <p><strong>THIS</strong> is why I got into coding</p>
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="question4" value="hero">
+                <p>I'd rather make websites about cats wearing clothes</p>
+              </label>
+            </div>
+            <h5>Do you enjoy programming as well as fantasy-football?</h5>
+            <div class="radio">
+              <label>
+                <input type="radio" name="question5" value="sports">
+                <p>I'm already prepping for my next fantasy draft!</p>
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="question5" value="books">
+                <p>Sportsball? I think not.</p>
+              </label>
+            </div>
+            <button type="submit" class="btn-block">Submit</button>
+          </form>
         <div id="answer-box">
           <p>You should learn the <span id="answer"></span> language</p>
         </div>
