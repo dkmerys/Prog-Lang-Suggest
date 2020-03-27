@@ -22,29 +22,7 @@ $(document).ready(function(){
     }
     
     $("#answer").empty().append(answer);
-      $("#answer-box").show();
-    
-    event.preventDefault();
-    // if (question5 === "sports" && question4 === "villain"){
-    //   answer = "Python"
-    //     $("#answer-box-python").show();
-    // } else if (question1 === "computer" && question3 === "noweb") {
-    //   answer = "C#"
-    //     $("#answer-box-c").show();
-    // } else if (question3 === "web" && question2 === "iphone"){
-    //   answer = "Swift"
-    //     $("#answer-box-swift").show();
-    // } else if (question2 === "iphone") {
-    //   answer = "Swift"
-    //     $("#answer-box-swift").show();
-    // } else if (question1 === "computer") {
-    //   answer = "C#"
-    //     $("#answer-box-c").show();
-    // } else if (question5 === "sports" || question4 === "villain") {
-    //   answer = "Python"
-    //     $("#answer-box-python").show();
-    // } else {
-    // }
+      $("#answer-box").slideDown(750).show();
     
     event.preventDefault();
 
